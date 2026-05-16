@@ -1,0 +1,22 @@
+[project]
+name = "mcp-vehicle-diagnostics"
+version = "3.0.0"
+description = "An industrial vehicle diagnostics platform for Stellantis built with FastMCP developed as a project for an academic course."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=2.0.0",
+    "uvicorn>=0.34.3",
+    "click>=8.1.8",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+mcp-server = "mcp_fiat_vehicles.__main__:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["mcp_fiat_vehicles"]

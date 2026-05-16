@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "mcp-fiat-diagnostics": {
+      "url": "http://localhost:8001/mcp/"
+    }
+  }
+}
