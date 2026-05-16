@@ -1,0 +1,36 @@
+{
+  "vin": "ZFAPANFAIL01",
+  "model": "Panda",
+  "serial_number": "NVP036RB",
+  "status": "FAIL",
+  "collaudo_date": "2026-03-23",
+  "technician": "Russo A.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 13.02,
+      "idle_rpm": 776,
+      "throttle_response_ms": 127,
+      "exhaust_co_ppm": 175
+    },
+    "electrical": {
+      "battery_voltage_v": 11.31,
+      "battery_soh_pct": 56,
+      "alternator_output_v": 12.8,
+      "can_bus_error_count": 6
+    },
+    "chassis": {
+      "brake_pressure_bar": 111,
+      "brake_balance_pct": 62.16,
+      "steering_play_deg": 2.01,
+      "suspension_drop_mm": 7.2
+    },
+    "adas": {
+      "headlight_alignment_mrad": 1.24,
+      "abs_response_ms": 49,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 96
+    }
+  },
+  "diagnostic_notes": "Tensione batteria critica e errori CAN bus multipli.",
+  "intervention_history": []
+}

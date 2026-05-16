@@ -1,0 +1,36 @@
+{
+  "vin": "ZFATIPFAIL06",
+  "model": "Tipo",
+  "serial_number": "UKE416LQ",
+  "status": "FAIL",
+  "collaudo_date": "2026-04-17",
+  "technician": "De Luca S.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 7.51,
+      "idle_rpm": 666,
+      "throttle_response_ms": 203,
+      "exhaust_co_ppm": 831
+    },
+    "electrical": {
+      "battery_voltage_v": 12.56,
+      "battery_soh_pct": 90,
+      "alternator_output_v": 13.84,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 62,
+      "brake_balance_pct": 47.53,
+      "steering_play_deg": 12.57,
+      "suspension_drop_mm": 14.19
+    },
+    "adas": {
+      "headlight_alignment_mrad": 8.52,
+      "abs_response_ms": 54,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 95
+    }
+  },
+  "diagnostic_notes": "Problema combinato su freni e powertrain.",
+  "intervention_history": []
+}

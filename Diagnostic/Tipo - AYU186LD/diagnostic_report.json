@@ -1,0 +1,36 @@
+{
+  "vin": "ZFATIPFAIL08",
+  "model": "Tipo",
+  "serial_number": "AYU186LD",
+  "status": "FAIL",
+  "collaudo_date": "2026-04-25",
+  "technician": "Esposito G.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 13.39,
+      "idle_rpm": 767,
+      "throttle_response_ms": 115,
+      "exhaust_co_ppm": 185
+    },
+    "electrical": {
+      "battery_voltage_v": 12.46,
+      "battery_soh_pct": 95,
+      "alternator_output_v": 14.15,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 60,
+      "brake_balance_pct": 53.17,
+      "steering_play_deg": 12.29,
+      "suspension_drop_mm": 12.19
+    },
+    "adas": {
+      "headlight_alignment_mrad": 20.41,
+      "abs_response_ms": 136,
+      "ecu_fault_codes": 2,
+      "adas_calibration_score": 70
+    }
+  },
+  "diagnostic_notes": "Disallineamento fari grave e gioco sterzo eccessivo.",
+  "intervention_history": []
+}

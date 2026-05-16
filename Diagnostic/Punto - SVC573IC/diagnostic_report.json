@@ -1,0 +1,36 @@
+{
+  "vin": "ZFAPUNFAIL04",
+  "model": "Punto",
+  "serial_number": "SVC573IC",
+  "status": "FAIL",
+  "collaudo_date": "2026-05-1",
+  "technician": "Marino R.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 7.81,
+      "idle_rpm": 672,
+      "throttle_response_ms": 202,
+      "exhaust_co_ppm": 936
+    },
+    "electrical": {
+      "battery_voltage_v": 12.66,
+      "battery_soh_pct": 88,
+      "alternator_output_v": 14.12,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 115,
+      "brake_balance_pct": 64.14,
+      "steering_play_deg": 4.24,
+      "suspension_drop_mm": 5.55
+    },
+    "adas": {
+      "headlight_alignment_mrad": 7.31,
+      "abs_response_ms": 62,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 99
+    }
+  },
+  "diagnostic_notes": "Compressione cilindri insufficiente e CO scarico elevata.",
+  "intervention_history": []
+}

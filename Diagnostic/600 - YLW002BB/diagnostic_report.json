@@ -1,0 +1,36 @@
+{
+  "vin": "ZFA600TEST02",
+  "model": "600",
+  "serial_number": "YLW002BB",
+  "status": "FAIL",
+  "collaudo_date": "2026-04-30",
+  "technician": "De Luca S.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 12.8,
+      "idle_rpm": 810,
+      "throttle_response_ms": 125,
+      "exhaust_co_ppm": 410
+    },
+    "electrical": {
+      "battery_voltage_v": 12.5,
+      "battery_soh_pct": 88,
+      "alternator_output_v": 14.0,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 92,
+      "brake_balance_pct": 57.0,
+      "steering_play_deg": 3.8,
+      "suspension_drop_mm": 6.2
+    },
+    "adas": {
+      "headlight_alignment_mrad": 7.5,
+      "abs_response_ms": 72,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 96
+    }
+  },
+  "diagnostic_notes": "Pressione freni e bilanciamento in zona YELLOW. Tutte le altre aree nei valori nominali.",
+  "intervention_history": []
+}

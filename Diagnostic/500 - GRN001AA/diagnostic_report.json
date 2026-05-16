@@ -1,0 +1,36 @@
+{
+  "vin": "ZFA500TEST01",
+  "model": "500",
+  "serial_number": "GRN001AA",
+  "status": "FAIL",
+  "collaudo_date": "2026-04-28",
+  "technician": "Ferraro M.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 13.1,
+      "idle_rpm": 800,
+      "throttle_response_ms": 110,
+      "exhaust_co_ppm": 320
+    },
+    "electrical": {
+      "battery_voltage_v": 12.6,
+      "battery_soh_pct": 91,
+      "alternator_output_v": 14.1,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 118,
+      "brake_balance_pct": 62.5,
+      "steering_play_deg": 3.2,
+      "suspension_drop_mm": 5.1
+    },
+    "adas": {
+      "headlight_alignment_mrad": 6.8,
+      "abs_response_ms": 61,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 97
+    }
+  },
+  "diagnostic_notes": "Veicolo entrato in diagnostica per verifica di routine. Tutti i parametri nei range nominali.",
+  "intervention_history": []
+}

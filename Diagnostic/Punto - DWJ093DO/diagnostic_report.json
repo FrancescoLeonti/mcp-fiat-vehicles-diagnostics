@@ -1,0 +1,36 @@
+{
+  "vin": "ZFAPUNFAIL07",
+  "model": "Punto",
+  "serial_number": "DWJ093DO",
+  "status": "FAIL",
+  "collaudo_date": "2026-04-15",
+  "technician": "Ferraro M.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 9.7,
+      "idle_rpm": 644,
+      "throttle_response_ms": 231,
+      "exhaust_co_ppm": 854
+    },
+    "electrical": {
+      "battery_voltage_v": 11.43,
+      "battery_soh_pct": 68,
+      "alternator_output_v": 13.16,
+      "can_bus_error_count": 5
+    },
+    "chassis": {
+      "brake_pressure_bar": 116,
+      "brake_balance_pct": 63.95,
+      "steering_play_deg": 3.96,
+      "suspension_drop_mm": 5.33
+    },
+    "adas": {
+      "headlight_alignment_mrad": 1.58,
+      "abs_response_ms": 63,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 99
+    }
+  },
+  "diagnostic_notes": "Risposta acceleratore lenta e batteria degradata.",
+  "intervention_history": []
+}

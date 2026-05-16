@@ -1,0 +1,36 @@
+{
+  "vin": "ZFAPANFAIL02",
+  "model": "Panda",
+  "serial_number": "QZE262OG",
+  "status": "FAIL",
+  "collaudo_date": "2026-03-30",
+  "technician": "Esposito G.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 13.64,
+      "idle_rpm": 817,
+      "throttle_response_ms": 92,
+      "exhaust_co_ppm": 235
+    },
+    "electrical": {
+      "battery_voltage_v": 12.77,
+      "battery_soh_pct": 94,
+      "alternator_output_v": 13.87,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 67,
+      "brake_balance_pct": 52.47,
+      "steering_play_deg": 8.52,
+      "suspension_drop_mm": 18.71
+    },
+    "adas": {
+      "headlight_alignment_mrad": 3.63,
+      "abs_response_ms": 78,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 96
+    }
+  },
+  "diagnostic_notes": "Pressione freni sotto soglia minima di sicurezza.",
+  "intervention_history": []
+}

@@ -1,0 +1,36 @@
+{
+  "vin": "ZFAPANFAIL05",
+  "model": "Panda",
+  "serial_number": "BYZ746SX",
+  "status": "FAIL",
+  "collaudo_date": "2026-04-15",
+  "technician": "De Luca S.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 12.82,
+      "idle_rpm": 792,
+      "throttle_response_ms": 117,
+      "exhaust_co_ppm": 401
+    },
+    "electrical": {
+      "battery_voltage_v": 11.21,
+      "battery_soh_pct": 68,
+      "alternator_output_v": 13.03,
+      "can_bus_error_count": 3
+    },
+    "chassis": {
+      "brake_pressure_bar": 120,
+      "brake_balance_pct": 62.16,
+      "steering_play_deg": 2.42,
+      "suspension_drop_mm": 5.34
+    },
+    "adas": {
+      "headlight_alignment_mrad": 17.05,
+      "abs_response_ms": 139,
+      "ecu_fault_codes": 2,
+      "adas_calibration_score": 76
+    }
+  },
+  "diagnostic_notes": "Anomalia elettrica con impatto su sistemi ADAS.",
+  "intervention_history": []
+}

@@ -1,0 +1,36 @@
+{
+  "vin": "ZFATIPFAIL03",
+  "model": "Tipo",
+  "serial_number": "KYL690NY",
+  "status": "FAIL",
+  "collaudo_date": "2026-05-3",
+  "technician": "Marino R.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 12.02,
+      "idle_rpm": 799,
+      "throttle_response_ms": 81,
+      "exhaust_co_ppm": 405
+    },
+    "electrical": {
+      "battery_voltage_v": 12.41,
+      "battery_soh_pct": 87,
+      "alternator_output_v": 13.88,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 130,
+      "brake_balance_pct": 60.79,
+      "steering_play_deg": 1.81,
+      "suspension_drop_mm": 2.18
+    },
+    "adas": {
+      "headlight_alignment_mrad": 16.72,
+      "abs_response_ms": 112,
+      "ecu_fault_codes": 4,
+      "adas_calibration_score": 70
+    }
+  },
+  "diagnostic_notes": "Calibrazione ADAS non conforme e fault codes ECU attivi.",
+  "intervention_history": []
+}
