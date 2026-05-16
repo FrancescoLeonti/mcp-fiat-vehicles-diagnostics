@@ -1,0 +1,56 @@
+{
+  "serial_number": "NLH294RH",
+  "model": "Tipo",
+  "resolved_date": "2024-05-09",
+  "technician": "Russo A.",
+  "primary_area": "adas",
+  "actions_taken": [
+    "Aggiornamento firmware ADAS",
+    "Sostituzione sensore ABS"
+  ],
+  "outcome": "PASS",
+  "technical_parameters_at_failure": {
+    "powertrain": {
+      "engine_compression_bar": 12.01,
+      "idle_rpm": 838,
+      "throttle_response_ms": 101,
+      "exhaust_co_ppm": 347
+    },
+    "electrical": {
+      "battery_voltage_v": 12.77,
+      "battery_soh_pct": 94,
+      "alternator_output_v": 14.36,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 131,
+      "brake_balance_pct": 63.85,
+      "steering_play_deg": 2.99,
+      "suspension_drop_mm": 3.39
+    },
+    "adas": {
+      "headlight_alignment_mrad": 23.65,
+      "abs_response_ms": 150,
+      "ecu_fault_codes": 2,
+      "adas_calibration_score": 79
+    }
+  },
+  "similarity_vector": [
+    0.6678,
+    0.595,
+    0.204,
+    0.347,
+    0.5044,
+    0.94,
+    0.7867,
+    0.0,
+    0.81,
+    0.5963,
+    0.1495,
+    0.1356,
+    0.7883,
+    0.8,
+    0.2,
+    0.58
+  ]
+}

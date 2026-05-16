@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>FIAT Diagnostics — Autorizza accesso</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0 }
+    body {
+      font-family: system-ui, sans-serif;
+      background: #f5f5f5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 1rem;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      max-width: 440px;
+      width: 100%;
+      box-shadow: 0 4px 24px rgba(0,0,0,.1);
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-bottom: 1.25rem;
+    }
+    .logo-icon {
+      width: 36px; height: 36px;
+      background: #0f3460;
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      color: white; font-size: 1.1rem;
+    }
+    .logo-text { font-size: 1rem; font-weight: 700; color: #16213e }
+    h1 { font-size: 1.25rem; margin-bottom: .25rem }
+    .subtitle { color: #666; font-size: .9rem; margin-bottom: 1.5rem }
+    .client {
+      background: #f0f4ff;
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .client strong { display: block; font-size: 1rem }
+    .client small { color: #555; font-size: .85rem }
+    .scopes { margin-bottom: 1.5rem }
+    .scopes p { font-size: .875rem; color: #444; margin-bottom: .5rem }
+    .scopes ul { list-style: none; padding-left: 0 }
+    .scopes li::before { content: "✓ "; color: #0f3460 }
+    .scopes li { font-size: .875rem; color: #333; padding: .2rem 0 }
+    .password-group { margin-bottom: 1.5rem }
+    .password-group label {
+      display: block; font-size: .875rem; color: #444; margin-bottom: .4rem
+    }
+    .password-group input {
+      width: 100%; padding: .6rem .75rem;
+      border: 1px solid #d1d5db;
+      border-radius: 8px; font-size: .95rem; outline: none;
+    }
+    .password-group input:focus {
+      border-color: #0f3460;
+      box-shadow: 0 0 0 2px rgba(15,52,96,.15);
+    }
+    .error { color: #dc2626; font-size: .85rem; margin-bottom: 1rem }
+    .actions { display: flex; gap: .75rem }
+    .btn {
+      flex: 1; padding: .75rem; border: none; border-radius: 8px;
+      font-size: .95rem; cursor: pointer; font-weight: 500;
+    }
+    .btn-approve { background: #0f3460; color: white }
+    .btn-approve:hover { background: #16213e }
+    .btn-deny { background: #f3f4f6; color: #374151 }
+    .btn-deny:hover { background: #e5e7eb }
+    .warn { font-size: .8rem; color: #9ca3af; margin-top: 1rem; text-align: center }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">
+      <div class="logo-icon">🚗</div>
+      <div class="logo-text">FIAT Vehicle Diagnostics</div>
+    </div>
+    <h1>Autorizza accesso</h1>
+    <p class="subtitle">Un client MCP richiede accesso al server di diagnostica.</p>
+    <div class="client">
+      <strong>$client_name</strong>
+      <small>vuole connettersi a fiat-vehicle-diagnostics</small>
+    </div>
+    <div class="scopes">
+      <p>Questo garantirà accesso a:</p>
+      <ul>$scope_items</ul>
+    </div>
+    <form method="POST" action="/oauth/consent">
+      <input type="hidden" name="key" value="$key">
+      <div class="password-group">
+        <label for="token">Password di accesso (MCP_AUTH_TOKEN)</label>
+        <input type="password" id="token" name="token"
+               placeholder="Inserisci la password"
+               autocomplete="current-password" required autofocus>
+      </div>
+      $error_html
+      <div class="actions">
+        <button class="btn btn-deny" type="submit" name="action" value="deny">Nega</button>
+        <button class="btn btn-approve" type="submit" name="action" value="approve">Approva</button>
+      </div>
+    </form>
+    <p class="warn">Approva solo se riconosci questo client e ti fidi di esso.</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "vin": "ZFAPANPASS12",
+  "model": "Panda",
+  "serial_number": "JLR914TS",
+  "status": "PASS",
+  "collaudo_date": "2023-08-25",
+  "technician": "Marino R.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 12.17,
+      "idle_rpm": 773,
+      "throttle_response_ms": 121,
+      "exhaust_co_ppm": 229
+    },
+    "electrical": {
+      "battery_voltage_v": 12.72,
+      "battery_soh_pct": 92,
+      "alternator_output_v": 13.99,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 132,
+      "brake_balance_pct": 61.83,
+      "steering_play_deg": 2.23,
+      "suspension_drop_mm": 7.32
+    },
+    "adas": {
+      "headlight_alignment_mrad": 1.26,
+      "abs_response_ms": 41,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 96
+    }
+  },
+  "diagnostic_notes": "All parameters within nominal range. Vehicle approved.",
+  "intervention_history": []
+}

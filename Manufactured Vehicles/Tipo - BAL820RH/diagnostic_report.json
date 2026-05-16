@@ -1,0 +1,36 @@
+{
+  "vin": "ZFATIPPASS18",
+  "model": "Tipo",
+  "serial_number": "BAL820RH",
+  "status": "PASS",
+  "collaudo_date": "2024-05-15",
+  "technician": "Russo A.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 12.36,
+      "idle_rpm": 830,
+      "throttle_response_ms": 138,
+      "exhaust_co_ppm": 319
+    },
+    "electrical": {
+      "battery_voltage_v": 12.59,
+      "battery_soh_pct": 94,
+      "alternator_output_v": 14.01,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 127,
+      "brake_balance_pct": 63.33,
+      "steering_play_deg": 4.46,
+      "suspension_drop_mm": 5.36
+    },
+    "adas": {
+      "headlight_alignment_mrad": 8.35,
+      "abs_response_ms": 72,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 98
+    }
+  },
+  "diagnostic_notes": "All parameters within nominal range. Vehicle approved.",
+  "intervention_history": []
+}

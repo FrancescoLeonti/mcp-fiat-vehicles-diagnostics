@@ -1,0 +1,55 @@
+{
+  "serial_number": "EYJ446TF",
+  "model": "600",
+  "resolved_date": "2024-03-08",
+  "technician": "De Luca S.",
+  "primary_area": "adas",
+  "actions_taken": [
+    "Ricalibrazione fari"
+  ],
+  "outcome": "PASS",
+  "technical_parameters_at_failure": {
+    "powertrain": {
+      "engine_compression_bar": 13.42,
+      "idle_rpm": 824,
+      "throttle_response_ms": 101,
+      "exhaust_co_ppm": 276
+    },
+    "electrical": {
+      "battery_voltage_v": 12.76,
+      "battery_soh_pct": 86,
+      "alternator_output_v": 14.17,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 101,
+      "brake_balance_pct": 62.74,
+      "steering_play_deg": 2.38,
+      "suspension_drop_mm": 2.32
+    },
+    "adas": {
+      "headlight_alignment_mrad": 21.85,
+      "abs_response_ms": 158,
+      "ecu_fault_codes": 3,
+      "adas_calibration_score": 82
+    }
+  },
+  "similarity_vector": [
+    0.8244,
+    0.56,
+    0.204,
+    0.276,
+    0.5022,
+    0.86,
+    0.7233,
+    0.0,
+    0.51,
+    0.5685,
+    0.119,
+    0.0928,
+    0.7283,
+    0.8533,
+    0.3,
+    0.64
+  ]
+}

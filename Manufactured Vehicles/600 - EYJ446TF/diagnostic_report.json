@@ -1,0 +1,36 @@
+{
+  "vin": "ZFA600PASS05",
+  "model": "600",
+  "serial_number": "EYJ446TF",
+  "status": "PASS",
+  "collaudo_date": "2024-03-08",
+  "technician": "Esposito G.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 12.45,
+      "idle_rpm": 829,
+      "throttle_response_ms": 136,
+      "exhaust_co_ppm": 441
+    },
+    "electrical": {
+      "battery_voltage_v": 12.53,
+      "battery_soh_pct": 97,
+      "alternator_output_v": 14.27,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 126,
+      "brake_balance_pct": 65.0,
+      "steering_play_deg": 2.86,
+      "suspension_drop_mm": 6.42
+    },
+    "adas": {
+      "headlight_alignment_mrad": 7.95,
+      "abs_response_ms": 60,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 97
+    }
+  },
+  "diagnostic_notes": "All parameters within nominal range. Vehicle approved.",
+  "intervention_history": []
+}

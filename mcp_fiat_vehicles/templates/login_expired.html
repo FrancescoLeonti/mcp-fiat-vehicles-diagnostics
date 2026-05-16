@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>FIAT Diagnostics — Link scaduto</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0 }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: linear-gradient(135deg, #0f3460 0%, #16213e 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 2.5rem;
+      max-width: 420px;
+      width: 100%;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+    .icon {
+      width: 64px;
+      height: 64px;
+      background: #fef2f2;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      margin: 0 auto 1.5rem;
+    }
+    h1 { font-size: 1.3rem; color: #16213e; margin-bottom: 0.75rem }
+    p  { font-size: 0.9rem; color: #6b7280; line-height: 1.6 }
+    .footer { margin-top: 1.5rem; font-size: 0.8rem; color: #9ca3af }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon">⚠</div>
+    <h1>Link scaduto o non valido</h1>
+    <p>
+      Questo link di autenticazione è scaduto o è già stato utilizzato.<br><br>
+      Torna ad Antigravity e chiama nuovamente il tool <strong>authenticate</strong>
+      per generare un nuovo link.
+    </p>
+    <p class="footer">FIAT Diagnostics — Stellantis Industrial Platform</p>
+  </div>
+</body>
+</html>

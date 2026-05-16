@@ -1,0 +1,36 @@
+{
+  "vin": "ZFA500PASS07",
+  "model": "500",
+  "serial_number": "WHJ670LV",
+  "status": "PASS",
+  "collaudo_date": "2023-07-27",
+  "technician": "Esposito G.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 13.42,
+      "idle_rpm": 802,
+      "throttle_response_ms": 133,
+      "exhaust_co_ppm": 296
+    },
+    "electrical": {
+      "battery_voltage_v": 12.44,
+      "battery_soh_pct": 90,
+      "alternator_output_v": 13.88,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 122,
+      "brake_balance_pct": 61.31,
+      "steering_play_deg": 3.34,
+      "suspension_drop_mm": 3.51
+    },
+    "adas": {
+      "headlight_alignment_mrad": 9.07,
+      "abs_response_ms": 46,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 95
+    }
+  },
+  "diagnostic_notes": "All parameters within nominal range. Vehicle approved.",
+  "intervention_history": []
+}

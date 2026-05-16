@@ -1,0 +1,36 @@
+{
+  "vin": "ZFAPUNPASS11",
+  "model": "Punto",
+  "serial_number": "AYM640AS",
+  "status": "PASS",
+  "collaudo_date": "2023-08-28",
+  "technician": "Esposito G.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 12.5,
+      "idle_rpm": 803,
+      "throttle_response_ms": 136,
+      "exhaust_co_ppm": 323
+    },
+    "electrical": {
+      "battery_voltage_v": 12.61,
+      "battery_soh_pct": 93,
+      "alternator_output_v": 14.32,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 123,
+      "brake_balance_pct": 62.88,
+      "steering_play_deg": 3.79,
+      "suspension_drop_mm": 2.97
+    },
+    "adas": {
+      "headlight_alignment_mrad": 8.38,
+      "abs_response_ms": 70,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 99
+    }
+  },
+  "diagnostic_notes": "All parameters within nominal range. Vehicle approved.",
+  "intervention_history": []
+}

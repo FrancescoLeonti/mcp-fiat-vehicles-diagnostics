@@ -1,0 +1,36 @@
+{
+  "vin": "ZFAPANPASS15",
+  "model": "Panda",
+  "serial_number": "SRU074KU",
+  "status": "PASS",
+  "collaudo_date": "2023-03-05",
+  "technician": "Ferraro M.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 13.66,
+      "idle_rpm": 824,
+      "throttle_response_ms": 134,
+      "exhaust_co_ppm": 462
+    },
+    "electrical": {
+      "battery_voltage_v": 12.49,
+      "battery_soh_pct": 93,
+      "alternator_output_v": 14.34,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 123,
+      "brake_balance_pct": 60.52,
+      "steering_play_deg": 3.6,
+      "suspension_drop_mm": 2.15
+    },
+    "adas": {
+      "headlight_alignment_mrad": 5.56,
+      "abs_response_ms": 41,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 95
+    }
+  },
+  "diagnostic_notes": "All parameters within nominal range. Vehicle approved.",
+  "intervention_history": []
+}

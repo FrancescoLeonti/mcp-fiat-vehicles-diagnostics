@@ -1,0 +1,36 @@
+{
+  "vin": "ZFAPANPASS04",
+  "model": "Panda",
+  "serial_number": "GUC109GN",
+  "status": "PASS",
+  "collaudo_date": "2024-05-10",
+  "technician": "Esposito G.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 13.77,
+      "idle_rpm": 816,
+      "throttle_response_ms": 119,
+      "exhaust_co_ppm": 316
+    },
+    "electrical": {
+      "battery_voltage_v": 12.51,
+      "battery_soh_pct": 96,
+      "alternator_output_v": 13.86,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 110,
+      "brake_balance_pct": 61.38,
+      "steering_play_deg": 2.77,
+      "suspension_drop_mm": 3.12
+    },
+    "adas": {
+      "headlight_alignment_mrad": 6.27,
+      "abs_response_ms": 42,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 95
+    }
+  },
+  "diagnostic_notes": "All parameters within nominal range. Vehicle approved.",
+  "intervention_history": []
+}

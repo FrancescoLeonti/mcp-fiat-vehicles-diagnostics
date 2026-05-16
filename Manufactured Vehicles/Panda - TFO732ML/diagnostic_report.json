@@ -1,0 +1,36 @@
+{
+  "vin": "ZFAPANPASS08",
+  "model": "Panda",
+  "serial_number": "TFO732ML",
+  "status": "PASS",
+  "collaudo_date": "2023-07-17",
+  "technician": "Marino R.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 13.33,
+      "idle_rpm": 829,
+      "throttle_response_ms": 130,
+      "exhaust_co_ppm": 286
+    },
+    "electrical": {
+      "battery_voltage_v": 12.44,
+      "battery_soh_pct": 96,
+      "alternator_output_v": 14.19,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 122,
+      "brake_balance_pct": 61.65,
+      "steering_play_deg": 4.76,
+      "suspension_drop_mm": 4.53
+    },
+    "adas": {
+      "headlight_alignment_mrad": 5.48,
+      "abs_response_ms": 53,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 96
+    }
+  },
+  "diagnostic_notes": "All parameters within nominal range. Vehicle approved.",
+  "intervention_history": []
+}

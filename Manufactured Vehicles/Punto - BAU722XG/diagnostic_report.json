@@ -1,0 +1,36 @@
+{
+  "vin": "ZFAPUNPASS17",
+  "model": "Punto",
+  "serial_number": "BAU722XG",
+  "status": "PASS",
+  "collaudo_date": "2024-02-26",
+  "technician": "Esposito G.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 12.03,
+      "idle_rpm": 828,
+      "throttle_response_ms": 106,
+      "exhaust_co_ppm": 236
+    },
+    "electrical": {
+      "battery_voltage_v": 12.74,
+      "battery_soh_pct": 97,
+      "alternator_output_v": 13.82,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 108,
+      "brake_balance_pct": 60.29,
+      "steering_play_deg": 3.41,
+      "suspension_drop_mm": 2.57
+    },
+    "adas": {
+      "headlight_alignment_mrad": 3.68,
+      "abs_response_ms": 51,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 97
+    }
+  },
+  "diagnostic_notes": "All parameters within nominal range. Vehicle approved.",
+  "intervention_history": []
+}

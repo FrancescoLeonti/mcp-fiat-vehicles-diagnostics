@@ -1,0 +1,55 @@
+{
+  "serial_number": "LWR003ZR",
+  "model": "Tipo",
+  "resolved_date": "2024-03-16",
+  "technician": "De Luca S.",
+  "primary_area": "adas",
+  "actions_taken": [
+    "Sostituzione sensore ABS"
+  ],
+  "outcome": "PASS",
+  "technical_parameters_at_failure": {
+    "powertrain": {
+      "engine_compression_bar": 13.55,
+      "idle_rpm": 831,
+      "throttle_response_ms": 89,
+      "exhaust_co_ppm": 488
+    },
+    "electrical": {
+      "battery_voltage_v": 12.58,
+      "battery_soh_pct": 87,
+      "alternator_output_v": 14.13,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 106,
+      "brake_balance_pct": 63.03,
+      "steering_play_deg": 2.08,
+      "suspension_drop_mm": 4.06
+    },
+    "adas": {
+      "headlight_alignment_mrad": 19.9,
+      "abs_response_ms": 121,
+      "ecu_fault_codes": 4,
+      "adas_calibration_score": 81
+    }
+  },
+  "similarity_vector": [
+    0.8389,
+    0.5775,
+    0.156,
+    0.488,
+    0.4622,
+    0.87,
+    0.71,
+    0.0,
+    0.56,
+    0.5757,
+    0.104,
+    0.1624,
+    0.6633,
+    0.6067,
+    0.4,
+    0.62
+  ]
+}

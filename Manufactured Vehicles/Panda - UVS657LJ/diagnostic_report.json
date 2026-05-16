@@ -1,0 +1,36 @@
+{
+  "vin": "ZFAPANPASS16",
+  "model": "Panda",
+  "serial_number": "UVS657LJ",
+  "status": "PASS",
+  "collaudo_date": "2023-01-13",
+  "technician": "Esposito G.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 12.36,
+      "idle_rpm": 762,
+      "throttle_response_ms": 93,
+      "exhaust_co_ppm": 456
+    },
+    "electrical": {
+      "battery_voltage_v": 12.44,
+      "battery_soh_pct": 93,
+      "alternator_output_v": 14.11,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 132,
+      "brake_balance_pct": 63.02,
+      "steering_play_deg": 2.97,
+      "suspension_drop_mm": 5.06
+    },
+    "adas": {
+      "headlight_alignment_mrad": 9.72,
+      "abs_response_ms": 46,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 98
+    }
+  },
+  "diagnostic_notes": "All parameters within nominal range. Vehicle approved.",
+  "intervention_history": []
+}

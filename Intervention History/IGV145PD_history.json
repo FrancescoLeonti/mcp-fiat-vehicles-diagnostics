@@ -1,0 +1,55 @@
+{
+  "serial_number": "IGV145PD",
+  "model": "Tipo",
+  "resolved_date": "2023-01-02",
+  "technician": "De Luca S.",
+  "primary_area": "adas",
+  "actions_taken": [
+    "Reset fault codes ECU"
+  ],
+  "outcome": "PASS",
+  "technical_parameters_at_failure": {
+    "powertrain": {
+      "engine_compression_bar": 12.22,
+      "idle_rpm": 772,
+      "throttle_response_ms": 81,
+      "exhaust_co_ppm": 268
+    },
+    "electrical": {
+      "battery_voltage_v": 12.66,
+      "battery_soh_pct": 89,
+      "alternator_output_v": 13.81,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 129,
+      "brake_balance_pct": 63.09,
+      "steering_play_deg": 3.69,
+      "suspension_drop_mm": 7.15
+    },
+    "adas": {
+      "headlight_alignment_mrad": 22.21,
+      "abs_response_ms": 129,
+      "ecu_fault_codes": 2,
+      "adas_calibration_score": 73
+    }
+  },
+  "similarity_vector": [
+    0.6911,
+    0.43,
+    0.124,
+    0.268,
+    0.48,
+    0.89,
+    0.6033,
+    0.0,
+    0.79,
+    0.5773,
+    0.1845,
+    0.286,
+    0.7403,
+    0.66,
+    0.2,
+    0.46
+  ]
+}

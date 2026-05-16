@@ -1,0 +1,55 @@
+{
+  "serial_number": "AYM640AS",
+  "model": "Punto",
+  "resolved_date": "2023-08-28",
+  "technician": "Esposito G.",
+  "primary_area": "powertrain",
+  "actions_taken": [
+    "Sostituzione iniettori"
+  ],
+  "outcome": "PASS",
+  "technical_parameters_at_failure": {
+    "powertrain": {
+      "engine_compression_bar": 8.55,
+      "idle_rpm": 674,
+      "throttle_response_ms": 239,
+      "exhaust_co_ppm": 773
+    },
+    "electrical": {
+      "battery_voltage_v": 12.57,
+      "battery_soh_pct": 97,
+      "alternator_output_v": 14.28,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 117,
+      "brake_balance_pct": 62.76,
+      "steering_play_deg": 3.63,
+      "suspension_drop_mm": 7.59
+    },
+    "adas": {
+      "headlight_alignment_mrad": 3.89,
+      "abs_response_ms": 44,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 97
+    }
+  },
+  "similarity_vector": [
+    0.2833,
+    0.185,
+    0.756,
+    0.773,
+    0.46,
+    0.97,
+    0.76,
+    0.0,
+    0.67,
+    0.569,
+    0.1815,
+    0.3036,
+    0.1297,
+    0.0933,
+    0.0,
+    0.94
+  ]
+}

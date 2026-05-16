@@ -1,0 +1,36 @@
+{
+  "vin": "ZFATIPPASS10",
+  "model": "Tipo",
+  "serial_number": "LWR003ZR",
+  "status": "PASS",
+  "collaudo_date": "2024-03-16",
+  "technician": "Marino R.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 12.2,
+      "idle_rpm": 788,
+      "throttle_response_ms": 88,
+      "exhaust_co_ppm": 387
+    },
+    "electrical": {
+      "battery_voltage_v": 12.46,
+      "battery_soh_pct": 86,
+      "alternator_output_v": 14.15,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 133,
+      "brake_balance_pct": 64.41,
+      "steering_play_deg": 3.59,
+      "suspension_drop_mm": 6.56
+    },
+    "adas": {
+      "headlight_alignment_mrad": 2.22,
+      "abs_response_ms": 52,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 97
+    }
+  },
+  "diagnostic_notes": "All parameters within nominal range. Vehicle approved.",
+  "intervention_history": []
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>FIAT Diagnostics — Accesso effettuato</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0 }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: linear-gradient(135deg, #0f3460 0%, #16213e 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 2.5rem;
+      max-width: 420px;
+      width: 100%;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+    .check {
+      width: 64px;
+      height: 64px;
+      background: #dcfce7;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      margin: 0 auto 1.5rem;
+    }
+    h1 { font-size: 1.4rem; color: #16213e; margin-bottom: 0.5rem }
+    .role-badge {
+      display: inline-block;
+      background: #eff6ff;
+      color: #1d4ed8;
+      border: 1px solid #bfdbfe;
+      border-radius: 20px;
+      padding: 0.35rem 0.85rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin: 0.75rem 0 1.25rem;
+    }
+    p { font-size: 0.95rem; color: #6b7280; line-height: 1.5 }
+    .hint {
+      margin-top: 1.5rem;
+      background: #f0f9ff;
+      border-radius: 8px;
+      padding: 0.9rem 1rem;
+      font-size: 0.85rem;
+      color: #0369a1;
+      text-align: left;
+    }
+    .footer {
+      margin-top: 1.5rem;
+      font-size: 0.8rem;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="check">✓</div>
+    <h1>Accesso effettuato</h1>
+    <div class="role-badge">$role_label</div>
+    <p>Autenticazione completata con successo.<br>Puoi chiudere questa scheda e tornare ad Antigravity.</p>
+    <div class="hint">
+      💬 La tua sessione è ora attiva. Puoi iniziare a chattare con l'agente.
+    </div>
+    <p class="footer">FIAT Diagnostics — Stellantis Industrial Platform</p>
+  </div>
+</body>
+</html>

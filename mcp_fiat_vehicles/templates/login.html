@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FIAT Diagnostics — Accesso</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0 }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: linear-gradient(135deg, #0f3460 0%, #16213e 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 2.5rem;
+      max-width: 420px;
+      width: 100%;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1.75rem;
+    }
+    .logo-icon {
+      width: 44px;
+      height: 44px;
+      background: #0f3460;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 1.25rem;
+    }
+    .logo-text { font-size: 1.1rem; font-weight: 700; color: #16213e }
+    .logo-sub  { font-size: 0.8rem; color: #6b7280; margin-top: 1px }
+    h1 { font-size: 1.3rem; color: #16213e; margin-bottom: 0.25rem }
+    .subtitle { font-size: 0.9rem; color: #6b7280; margin-bottom: 1.5rem }
+    .role-badge {
+      display: inline-block;
+      background: #eff6ff;
+      color: #1d4ed8;
+      border: 1px solid #bfdbfe;
+      border-radius: 20px;
+      padding: 0.35rem 0.85rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+    }
+    .field { margin-bottom: 1.25rem }
+    .field label {
+      display: block;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: #374151;
+      margin-bottom: 0.4rem;
+    }
+    .field input {
+      width: 100%;
+      padding: 0.7rem 0.9rem;
+      border: 1.5px solid #d1d5db;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      outline: none;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    .field input:focus {
+      border-color: #0f3460;
+      box-shadow: 0 0 0 3px rgba(15, 52, 96, 0.12);
+    }
+    .error {
+      background: #fef2f2;
+      border: 1px solid #fecaca;
+      border-radius: 8px;
+      color: #dc2626;
+      font-size: 0.875rem;
+      padding: 0.6rem 0.9rem;
+      margin-bottom: 1.25rem;
+    }
+    .btn-login {
+      width: 100%;
+      padding: 0.8rem;
+      background: #0f3460;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .btn-login:hover { background: #16213e }
+    .footer {
+      margin-top: 1.5rem;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">
+      <div class="logo-icon">🚗</div>
+      <div>
+        <div class="logo-text">FIAT Diagnostics</div>
+        <div class="logo-sub">Stellantis Industrial Platform</div>
+      </div>
+    </div>
+
+    <h1>Accesso al sistema</h1>
+    <p class="subtitle">Inserisci la password per il ruolo selezionato.</p>
+
+    <div class="role-badge">$role_label</div>
+
+    $error_html
+
+    <form method="POST" action="/login/callback">
+      <input type="hidden" name="key" value="$key">
+      <input type="hidden" name="role" value="$role">
+
+      <div class="field">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Inserisci la password"
+          autocomplete="current-password"
+          autofocus
+          required
+        >
+      </div>
+
+      <button type="submit" class="btn-login">Accedi</button>
+    </form>
+
+    <p class="footer">Accesso riservato al personale autorizzato Stellantis.</p>
+  </div>
+</body>
+</html>

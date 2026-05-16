@@ -1,0 +1,36 @@
+{
+  "vin": "ZFA500PASS13",
+  "model": "500",
+  "serial_number": "LCF792MU",
+  "status": "PASS",
+  "collaudo_date": "2023-06-19",
+  "technician": "De Luca S.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 12.42,
+      "idle_rpm": 821,
+      "throttle_response_ms": 87,
+      "exhaust_co_ppm": 263
+    },
+    "electrical": {
+      "battery_voltage_v": 12.64,
+      "battery_soh_pct": 92,
+      "alternator_output_v": 14.37,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 114,
+      "brake_balance_pct": 60.94,
+      "steering_play_deg": 4.18,
+      "suspension_drop_mm": 2.29
+    },
+    "adas": {
+      "headlight_alignment_mrad": 1.14,
+      "abs_response_ms": 54,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 96
+    }
+  },
+  "diagnostic_notes": "All parameters within nominal range. Vehicle approved.",
+  "intervention_history": []
+}

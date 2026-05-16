@@ -1,0 +1,36 @@
+{
+  "vin": "ZFA500PASS20",
+  "model": "500",
+  "serial_number": "YCM232OE",
+  "status": "PASS",
+  "collaudo_date": "2024-02-02",
+  "technician": "Ferraro M.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 12.99,
+      "idle_rpm": 788,
+      "throttle_response_ms": 138,
+      "exhaust_co_ppm": 171
+    },
+    "electrical": {
+      "battery_voltage_v": 12.57,
+      "battery_soh_pct": 91,
+      "alternator_output_v": 14.29,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 127,
+      "brake_balance_pct": 62.76,
+      "steering_play_deg": 4.24,
+      "suspension_drop_mm": 6.76
+    },
+    "adas": {
+      "headlight_alignment_mrad": 5.47,
+      "abs_response_ms": 68,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 98
+    }
+  },
+  "diagnostic_notes": "All parameters within nominal range. Vehicle approved.",
+  "intervention_history": []
+}

@@ -1,0 +1,56 @@
+{
+  "serial_number": "CUS230OV",
+  "model": "500",
+  "resolved_date": "2024-05-13",
+  "technician": "Russo A.",
+  "primary_area": "powertrain",
+  "actions_taken": [
+    "Regolazione valvole",
+    "Pulizia valvole EGR"
+  ],
+  "outcome": "PASS",
+  "technical_parameters_at_failure": {
+    "powertrain": {
+      "engine_compression_bar": 7.64,
+      "idle_rpm": 679,
+      "throttle_response_ms": 266,
+      "exhaust_co_ppm": 824
+    },
+    "electrical": {
+      "battery_voltage_v": 12.79,
+      "battery_soh_pct": 90,
+      "alternator_output_v": 14.38,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 132,
+      "brake_balance_pct": 62.65,
+      "steering_play_deg": 1.89,
+      "suspension_drop_mm": 2.41
+    },
+    "adas": {
+      "headlight_alignment_mrad": 5.27,
+      "abs_response_ms": 63,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 97
+    }
+  },
+  "similarity_vector": [
+    0.1822,
+    0.1975,
+    0.864,
+    0.824,
+    0.5089,
+    0.9,
+    0.7933,
+    0.0,
+    0.82,
+    0.5662,
+    0.0945,
+    0.0964,
+    0.1757,
+    0.22,
+    0.0,
+    0.94
+  ]
+}

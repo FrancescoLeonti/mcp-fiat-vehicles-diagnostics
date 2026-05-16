@@ -1,0 +1,36 @@
+{
+  "vin": "ZFATIPPASS09",
+  "model": "Tipo",
+  "serial_number": "NLH294RH",
+  "status": "PASS",
+  "collaudo_date": "2024-05-09",
+  "technician": "Ferraro M.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 12.02,
+      "idle_rpm": 783,
+      "throttle_response_ms": 107,
+      "exhaust_co_ppm": 327
+    },
+    "electrical": {
+      "battery_voltage_v": 12.65,
+      "battery_soh_pct": 94,
+      "alternator_output_v": 14.33,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 124,
+      "brake_balance_pct": 64.02,
+      "steering_play_deg": 3.11,
+      "suspension_drop_mm": 4.79
+    },
+    "adas": {
+      "headlight_alignment_mrad": 9.15,
+      "abs_response_ms": 74,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 99
+    }
+  },
+  "diagnostic_notes": "All parameters within nominal range. Vehicle approved.",
+  "intervention_history": []
+}

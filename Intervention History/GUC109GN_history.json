@@ -1,0 +1,55 @@
+{
+  "serial_number": "GUC109GN",
+  "model": "Panda",
+  "resolved_date": "2024-05-10",
+  "technician": "De Luca S.",
+  "primary_area": "electrical",
+  "actions_taken": [
+    "Sostituzione batteria"
+  ],
+  "outcome": "PASS",
+  "technical_parameters_at_failure": {
+    "powertrain": {
+      "engine_compression_bar": 13.0,
+      "idle_rpm": 802,
+      "throttle_response_ms": 93,
+      "exhaust_co_ppm": 177
+    },
+    "electrical": {
+      "battery_voltage_v": 11.31,
+      "battery_soh_pct": 59,
+      "alternator_output_v": 12.89,
+      "can_bus_error_count": 7
+    },
+    "chassis": {
+      "brake_pressure_bar": 110,
+      "brake_balance_pct": 62.12,
+      "steering_play_deg": 2.49,
+      "suspension_drop_mm": 4.17
+    },
+    "adas": {
+      "headlight_alignment_mrad": 2.59,
+      "abs_response_ms": 66,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 97
+    }
+  },
+  "similarity_vector": [
+    0.7778,
+    0.505,
+    0.172,
+    0.177,
+    0.18,
+    0.59,
+    0.2967,
+    0.7,
+    0.6,
+    0.553,
+    0.1245,
+    0.1668,
+    0.0863,
+    0.24,
+    0.0,
+    0.94
+  ]
+}

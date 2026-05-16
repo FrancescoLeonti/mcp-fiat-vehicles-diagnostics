@@ -1,0 +1,36 @@
+{
+  "vin": "ZFATIPPASS03",
+  "model": "Tipo",
+  "serial_number": "TLG554QV",
+  "status": "PASS",
+  "collaudo_date": "2023-03-17",
+  "technician": "Russo A.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 12.54,
+      "idle_rpm": 767,
+      "throttle_response_ms": 134,
+      "exhaust_co_ppm": 461
+    },
+    "electrical": {
+      "battery_voltage_v": 12.77,
+      "battery_soh_pct": 95,
+      "alternator_output_v": 14.15,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 116,
+      "brake_balance_pct": 63.8,
+      "steering_play_deg": 3.95,
+      "suspension_drop_mm": 2.16
+    },
+    "adas": {
+      "headlight_alignment_mrad": 1.07,
+      "abs_response_ms": 43,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 95
+    }
+  },
+  "diagnostic_notes": "All parameters within nominal range. Vehicle approved.",
+  "intervention_history": []
+}

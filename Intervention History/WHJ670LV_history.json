@@ -1,0 +1,56 @@
+{
+  "serial_number": "WHJ670LV",
+  "model": "500",
+  "resolved_date": "2023-07-27",
+  "technician": "De Luca S.",
+  "primary_area": "adas",
+  "actions_taken": [
+    "Ricalibrazione fari",
+    "Reset fault codes ECU"
+  ],
+  "outcome": "PASS",
+  "technical_parameters_at_failure": {
+    "powertrain": {
+      "engine_compression_bar": 12.89,
+      "idle_rpm": 802,
+      "throttle_response_ms": 124,
+      "exhaust_co_ppm": 447
+    },
+    "electrical": {
+      "battery_voltage_v": 12.61,
+      "battery_soh_pct": 93,
+      "alternator_output_v": 13.91,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 110,
+      "brake_balance_pct": 63.52,
+      "steering_play_deg": 1.49,
+      "suspension_drop_mm": 4.79
+    },
+    "adas": {
+      "headlight_alignment_mrad": 18.77,
+      "abs_response_ms": 153,
+      "ecu_fault_codes": 2,
+      "adas_calibration_score": 73
+    }
+  },
+  "similarity_vector": [
+    0.7656,
+    0.505,
+    0.296,
+    0.447,
+    0.4689,
+    0.93,
+    0.6367,
+    0.0,
+    0.6,
+    0.588,
+    0.0745,
+    0.1916,
+    0.6257,
+    0.82,
+    0.2,
+    0.46
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "vin": "ZFAPUNPASS14",
+  "model": "Punto",
+  "serial_number": "CYM139ET",
+  "status": "PASS",
+  "collaudo_date": "2024-04-13",
+  "technician": "Marino R.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 12.48,
+      "idle_rpm": 783,
+      "throttle_response_ms": 140,
+      "exhaust_co_ppm": 479
+    },
+    "electrical": {
+      "battery_voltage_v": 12.55,
+      "battery_soh_pct": 96,
+      "alternator_output_v": 13.95,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 109,
+      "brake_balance_pct": 61.11,
+      "steering_play_deg": 1.99,
+      "suspension_drop_mm": 4.01
+    },
+    "adas": {
+      "headlight_alignment_mrad": 6.78,
+      "abs_response_ms": 61,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 98
+    }
+  },
+  "diagnostic_notes": "All parameters within nominal range. Vehicle approved.",
+  "intervention_history": []
+}

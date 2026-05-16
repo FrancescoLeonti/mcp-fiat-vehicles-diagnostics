@@ -1,0 +1,56 @@
+{
+  "serial_number": "JLR914TS",
+  "model": "Panda",
+  "resolved_date": "2023-08-25",
+  "technician": "Esposito G.",
+  "primary_area": "adas",
+  "actions_taken": [
+    "Aggiornamento firmware ADAS",
+    "Sostituzione sensore ABS"
+  ],
+  "outcome": "PASS",
+  "technical_parameters_at_failure": {
+    "powertrain": {
+      "engine_compression_bar": 12.99,
+      "idle_rpm": 803,
+      "throttle_response_ms": 99,
+      "exhaust_co_ppm": 306
+    },
+    "electrical": {
+      "battery_voltage_v": 12.44,
+      "battery_soh_pct": 97,
+      "alternator_output_v": 14.0,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 110,
+      "brake_balance_pct": 61.41,
+      "steering_play_deg": 3.54,
+      "suspension_drop_mm": 2.79
+    },
+    "adas": {
+      "headlight_alignment_mrad": 23.49,
+      "abs_response_ms": 107,
+      "ecu_fault_codes": 3,
+      "adas_calibration_score": 83
+    }
+  },
+  "similarity_vector": [
+    0.7767,
+    0.5075,
+    0.196,
+    0.306,
+    0.4311,
+    0.97,
+    0.6667,
+    0.0,
+    0.6,
+    0.5352,
+    0.177,
+    0.1116,
+    0.783,
+    0.5133,
+    0.3,
+    0.66
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "vin": "ZFATIPPASS01",
+  "model": "Tipo",
+  "serial_number": "IGV145PD",
+  "status": "PASS",
+  "collaudo_date": "2023-01-02",
+  "technician": "Marino R.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 13.53,
+      "idle_rpm": 762,
+      "throttle_response_ms": 142,
+      "exhaust_co_ppm": 208
+    },
+    "electrical": {
+      "battery_voltage_v": 12.73,
+      "battery_soh_pct": 92,
+      "alternator_output_v": 14.3,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 111,
+      "brake_balance_pct": 60.44,
+      "steering_play_deg": 4.04,
+      "suspension_drop_mm": 5.15
+    },
+    "adas": {
+      "headlight_alignment_mrad": 2.82,
+      "abs_response_ms": 47,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 96
+    }
+  },
+  "diagnostic_notes": "All parameters within nominal range. Vehicle approved.",
+  "intervention_history": []
+}

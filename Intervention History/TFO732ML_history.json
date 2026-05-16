@@ -1,0 +1,56 @@
+{
+  "serial_number": "TFO732ML",
+  "model": "Panda",
+  "resolved_date": "2023-07-17",
+  "technician": "Esposito G.",
+  "primary_area": "adas",
+  "actions_taken": [
+    "Aggiornamento firmware ADAS",
+    "Reset fault codes ECU"
+  ],
+  "outcome": "PASS",
+  "technical_parameters_at_failure": {
+    "powertrain": {
+      "engine_compression_bar": 12.42,
+      "idle_rpm": 779,
+      "throttle_response_ms": 107,
+      "exhaust_co_ppm": 366
+    },
+    "electrical": {
+      "battery_voltage_v": 12.65,
+      "battery_soh_pct": 92,
+      "alternator_output_v": 13.81,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 104,
+      "brake_balance_pct": 64.07,
+      "steering_play_deg": 4.69,
+      "suspension_drop_mm": 3.36
+    },
+    "adas": {
+      "headlight_alignment_mrad": 26.29,
+      "abs_response_ms": 156,
+      "ecu_fault_codes": 3,
+      "adas_calibration_score": 67
+    }
+  },
+  "similarity_vector": [
+    0.7133,
+    0.4475,
+    0.228,
+    0.366,
+    0.4778,
+    0.92,
+    0.6033,
+    0.0,
+    0.54,
+    0.6017,
+    0.2345,
+    0.1344,
+    0.8763,
+    0.84,
+    0.3,
+    0.34
+  ]
+}

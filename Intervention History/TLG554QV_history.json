@@ -1,0 +1,55 @@
+{
+  "serial_number": "TLG554QV",
+  "model": "Tipo",
+  "resolved_date": "2023-03-17",
+  "technician": "Ferraro M.",
+  "primary_area": "adas",
+  "actions_taken": [
+    "Aggiornamento firmware ADAS"
+  ],
+  "outcome": "PASS",
+  "technical_parameters_at_failure": {
+    "powertrain": {
+      "engine_compression_bar": 13.8,
+      "idle_rpm": 837,
+      "throttle_response_ms": 87,
+      "exhaust_co_ppm": 434
+    },
+    "electrical": {
+      "battery_voltage_v": 12.52,
+      "battery_soh_pct": 86,
+      "alternator_output_v": 13.99,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 119,
+      "brake_balance_pct": 61.19,
+      "steering_play_deg": 4.85,
+      "suspension_drop_mm": 3.76
+    },
+    "adas": {
+      "headlight_alignment_mrad": 21.28,
+      "abs_response_ms": 126,
+      "ecu_fault_codes": 2,
+      "adas_calibration_score": 81
+    }
+  },
+  "similarity_vector": [
+    0.8667,
+    0.5925,
+    0.148,
+    0.434,
+    0.4489,
+    0.86,
+    0.6633,
+    0.0,
+    0.69,
+    0.5297,
+    0.2425,
+    0.1504,
+    0.7093,
+    0.64,
+    0.2,
+    0.62
+  ]
+}

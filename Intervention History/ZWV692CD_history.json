@@ -1,0 +1,56 @@
+{
+  "serial_number": "ZWV692CD",
+  "model": "600",
+  "resolved_date": "2023-04-19",
+  "technician": "Esposito G.",
+  "primary_area": "adas",
+  "actions_taken": [
+    "Aggiornamento firmware ADAS",
+    "Sostituzione sensore ABS"
+  ],
+  "outcome": "PASS",
+  "technical_parameters_at_failure": {
+    "powertrain": {
+      "engine_compression_bar": 12.12,
+      "idle_rpm": 780,
+      "throttle_response_ms": 144,
+      "exhaust_co_ppm": 340
+    },
+    "electrical": {
+      "battery_voltage_v": 12.46,
+      "battery_soh_pct": 86,
+      "alternator_output_v": 14.08,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 123,
+      "brake_balance_pct": 64.56,
+      "steering_play_deg": 2.88,
+      "suspension_drop_mm": 7.37
+    },
+    "adas": {
+      "headlight_alignment_mrad": 21.53,
+      "abs_response_ms": 153,
+      "ecu_fault_codes": 4,
+      "adas_calibration_score": 72
+    }
+  },
+  "similarity_vector": [
+    0.68,
+    0.45,
+    0.376,
+    0.34,
+    0.4356,
+    0.86,
+    0.6933,
+    0.0,
+    0.73,
+    0.614,
+    0.144,
+    0.2948,
+    0.7177,
+    0.82,
+    0.4,
+    0.44
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "vin": "ZFA600PASS19",
+  "model": "600",
+  "serial_number": "WML693TC",
+  "status": "PASS",
+  "collaudo_date": "2023-09-30",
+  "technician": "Russo A.",
+  "technical_parameters": {
+    "powertrain": {
+      "engine_compression_bar": 13.32,
+      "idle_rpm": 778,
+      "throttle_response_ms": 113,
+      "exhaust_co_ppm": 247
+    },
+    "electrical": {
+      "battery_voltage_v": 12.4,
+      "battery_soh_pct": 91,
+      "alternator_output_v": 14.08,
+      "can_bus_error_count": 0
+    },
+    "chassis": {
+      "brake_pressure_bar": 118,
+      "brake_balance_pct": 64.86,
+      "steering_play_deg": 2.56,
+      "suspension_drop_mm": 6.98
+    },
+    "adas": {
+      "headlight_alignment_mrad": 5.6,
+      "abs_response_ms": 40,
+      "ecu_fault_codes": 0,
+      "adas_calibration_score": 98
+    }
+  },
+  "diagnostic_notes": "All parameters within nominal range. Vehicle approved.",
+  "intervention_history": []
+}
